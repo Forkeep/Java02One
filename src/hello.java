@@ -8,6 +8,7 @@ public class hello {
         System.out.print("input age :");
         int age = scanner.nextInt();
         System.out.printf("Hi, %s, you are %d\n", name, age); // 格式化输出
+
     }
 
 }

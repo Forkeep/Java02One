@@ -3,8 +3,13 @@ import java.util.Scanner;
 
 public class hello {
     public static void main(String[] args) {
-        int[] ns = { 1, 1, 2, 3, 5, 8 };
+        int[] ns = { 28, 12, 89, 73, 65, 18, 96, 50, 8, 36 };
+        var bs = ns;
+        Arrays.sort(ns);
         System.out.println(Arrays.toString(ns));
+        System.out.println(Arrays.toString(bs));
+
+
     }
 
 }
